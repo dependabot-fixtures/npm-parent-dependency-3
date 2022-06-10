@@ -1,6 +1,6 @@
 {
   "name": "@dependabot-fixtures/npm-parent-dependency-3",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "a test fixture for testing transitive dependency updates",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dependabot-fixtures/npm-parent-dependency-3/issues"
   },
-  "homepage": "https://github.com/dependabot-fixtures/npm-parent-dependency-3#readme"
+  "homepage": "https://github.com/dependabot-fixtures/npm-parent-dependency-3#readme",
+  "dependencies": {
+    "@dependabot-fixtures/npm-intermediate-dependency-3": "~1.1.0"
+  }
 }
